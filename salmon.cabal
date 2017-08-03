@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                salmon
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Pipes experiment: a salmon floating upstream
 description:         Sammy the Salmon gonna teach you a brand new dance.
 license:             MIT
@@ -13,11 +13,11 @@ copyright:           Copyright (C) 2014  Fraser Tweedale
 category:            Pipes
 build-type:          Simple
 -- extra-source-files:  
-cabal-version:       >=1.8
+cabal-version:       >= 1.10
 
 executable salmon
   main-is:             Main.hs
-  -- other-modules:       
+  other-modules:    Salmon       
   -- other-extensions:    
   build-depends:  base > 4 && < 10000 
     , pipes >= 4.0
